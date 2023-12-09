@@ -1,0 +1,15 @@
+# !/bin/bash 
+
+# worlds simplest boot script
+# serves up a static index.html file with nginx
+
+apt-get update
+apt-get install -y nginx
+
+echo "<html><body><h1>Hello World</h1></body></html>" > /var/www/html/index.html
+
+# restart nginx
+
+service nginx restart
+
+# end of bootscript.sh
