@@ -1,6 +1,6 @@
 # Overview
 
-![Architecture](./images/arch.png)
+![Architecture](imgs/arch.png)
 
 ## Login to the VM
 ```bash
